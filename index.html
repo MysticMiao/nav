@@ -1,72 +1,96 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
 
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" type="text/css" href="index.css" />
-		<title>菜单下拉动画</title>
+		<meta charset="UTF-8">
+		<title>导航实现左右滑动，点击当前居中</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+
 	</head>
 
 	<body>
-		<div class="bg">
-			<ul>
-				<li>
-					<a href="#">首页</a>
-				</li>
-				<li>
-					<a href="#">世界名校</a>
-				</li>
-				<li>
-					<a href="#">中国名校</a>
-				</li>
-				<li>
-					<a href="#">台湾名校</a>
-				</li>
-				<li>
-					<a href="#">TTC</a>
-				</li>
-				<li>
-					<a href="#">高等教育应用</a>
-				</li>
-				<li>
-					<a href="#">微课堂</a>
-				</li>
-				<li>
-					<a href="#">中国探索</a>
-				</li>
-				<li>
-					<a href="#">美国探索</a>
-				</li>
-				<li>
-					<a href="#">HD高清</a>
-				</li>
-				<li>
-					<a href="#">艺术学院</a>
-				</li>
-				<li>
-					<a href="#">馆藏书画</a>
-				</li>
-				<li>
-					<a href="#">世界油画</a>
-				</li>
-				<li>
-					<a href="#">医学院</a>
-				</li>
-				<li>
-					<a href="#">商学院</a>
-				</li>
-			</ul>
-		</div>
-		<div class="bar">
-			<div class="menu">
-				<span></span>
-				<span></span>
+		<div class="header">导航左右滑动点击当前居中</div>
+		<!-- 导航 -->
+		<div class="nav-bar">
+			<div class="swiper-container" id="swiper_nav">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide active" id="active">
+						<a href="#">法学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">理学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">生物学生物学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">声学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">材料学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">电磁学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">天文学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">热学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">地质学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">细胞生物学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">免疫学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">医学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">生物学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">物理学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">数学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">化学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">文学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">考古学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">植物学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">昆虫学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">微生物学微生物学</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="#">心理学</a>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
-		<script src="index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>
